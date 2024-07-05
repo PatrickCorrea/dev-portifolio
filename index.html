@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Dev Front-end</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">Patrick Jorge/></div>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#historico">Histórico</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="sobre">
+            <div class="container">
+                <div class="profile-image">
+                    <img src="./assets/projects-image/photo-profile.jpeg" alt="Foto do Desenvolvedor" class="dev-photo">
+                </div>
+                <div class="dev-info">
+                    <h1>Patrick Jorge</h1>
+                    <p class="typing-text"></p>
+                    <div class="social-icons">
+                        <a href="https://github.com/PatrickCorrea" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/patrick-corr%C3%AAa/" target="_blank"><i
+                                class="fab fa-linkedin"></i></a>
+                        <a href="mailto:patrickjorge.dev@gmail.com"><i class="fas fa-envelope"></i></a>
+                    </div>
+                    <a href="#projetos" class="cta-button">Ver Projetos</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="habilidades" class="animate-on-scroll">
+            <h2>Habilidades</h2>
+            <div class="skills-container">
+                <div class="skill">
+                    <i class="fab fa-js"></i>
+                    <span>JavaScript</span>
+                </div>
+                <div class="skill">
+                    <i class="fab fa-react"></i>
+                    <span>React</span>
+                </div>
+                <div class="skill">
+                    <i class="fab fa-bootstrap"></i>
+                    <span>Bootstrap</span>
+                </div>
+                <div class="skill">
+                    <i class="fab fa-node-js"></i>
+                    <span>Node.js</span>
+                </div>
+                <div class="skill">
+                    <i class="fab fa-figma"></i>
+                    <span>Figma</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="projetos" class="animate-on-scroll">
+            <h2>Projetos</h2>
+            <div class="carousel">
+                <div class="carousel-inner">
+                    <div class="project">
+                        <a href="https://patrickcorrea.github.io/rise-finance-landingpage/" target="_blank"><img
+                                src="./assets/projects-image/rise-finance.png" alt="Projeto 1"></a>
+                        <h3>Rise Finance</h3>
+                        <p>Landing page de um banco virtual onde é apresentado a identidade visual do produto em uma
+                            página. Projeto criado em Html e Css</p>
+                    </div>
+                    <div class="project">
+                        <a href="https://patrickcorrea.github.io/smart-bank/" target="_blank"><img
+                                src="./assets/projects-image/smart-bank.png" alt="Projeto 2"></a>
+                        <h3>Smart Bank</h3>
+                        <p>Esse projeto foi um desafio onde fui encarregado de componentizar os elementos da página
+                            utilizando styled components, foi implementado uma feature onde exibe o extrato bancário com
+                            as ultimas compras do cliente e também o modo noturno para o visual do site.</p>
+                    </div>
+                </div>
+                <button class="prev">&lt;</button>
+                <button class="next">&gt;</button>
+            </div>
+        </section>
+
+        <section id="historico" class="animate-on-scroll">
+            <h2>Histórico Profissional</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <h3>Freelance</h3>
+                    <div class="work-time">
+                        <p>Front-End Developer</p>
+                        <p class="work-time-p">(Jan 2022 - Dez 2023)</p>
+                    </div>
+                    <p class="work-about">Trabalhei como desenvolvedor front-end freelance criando interfaces
+                        interativas para clientes que me solicitaram.</p>
+                </div>
+                <div class="timeline-item">
+                    <h3>PMB</h3>
+                    <div class="work-time">
+                        <p>Front-End Developer</p>
+                        <p class="work-time-p">( Jan 2024 - Presente )</p>
+                    </div>
+                    <p class="work-about">Atuo como desenvolvedor front-end na equipe de um partido político do governo,
+                        no meu dia a dia implemento interfaces e resolvo bugs no sistema nacional.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="animate-on-scroll">
+            <h2>Contato</h2>
+            <form>
+                <input type="text" placeholder="Nome" required>
+                <input type="email" placeholder="E-mail" required>
+                <textarea placeholder="Mensagem" required></textarea>
+                <button type="submit" class="cta-button">Enviar</button>
+            </form>
+            <div class="contact-info">
+                <p><i class="fas fa-envelope"></i> patrickjorge.dev@gmail.com</p>
+                <p><i class="fab fa-linkedin"></i> https://www.linkedin.com/in/patrick-corr%C3%AAa/</p>
+                <p><i class="fas fa-phone"></i> (21) 9 7999-3614</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Patrick Jorge. Todos os direitos reservados.</p>
+        <p>Desenvolvedor Front-end | Criando experiências web incríveis</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
