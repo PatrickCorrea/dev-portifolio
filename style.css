@@ -216,8 +216,8 @@ p {
     transform: translateY(0);
 }
 
-.skill i {
-    font-size: 48px;
+.skill img {
+    width: 42px;
     margin-bottom: 10px;
     color: var(--neon-green);
 }
@@ -284,6 +284,17 @@ span {
     right: 10px;
 }
 
+.project h3{
+    margin-top: 18px;
+    font-weight: 100;
+}
+
+.project p{
+    margin-top: 18px;
+    font-size: 12px;
+    font-weight: 100;
+}
+
 .timeline {
     position: relative;
     max-width: 700px;
@@ -295,16 +306,20 @@ span {
     gap: 12px;
 }
 
-.work-time p {
-    font-size: 12px;
+.timeline-item h3{
+    font-size: 16px;
+    font-weight: 100;
 }
 
-.work-time-p {
+.work-time p {
+    font-size: 12px;
     font-weight: lighter;
+    margin-top: 0;
 }
 
 .work-about {
     margin-top: 12px;
+    font-size: 12px;
     font-weight: 100;
 }
 
@@ -324,6 +339,7 @@ span {
     position: relative;
     background-color: var(--light-bg);
     width: 50%;
+    border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 243, 255, 0.3);
 }
 
@@ -333,7 +349,7 @@ span {
     width: 20px;
     height: 20px;
     right: -10px;
-    background-color: var(--neon-pink);
+    background-color: var(--neon-blue);
     border: 4px solid var(--neon-blue);
     top: 20px;
     border-radius: 50%;
